@@ -1,0 +1,177 @@
+
+/* title */
+body {
+  font-family: "Montserrat-Bold";
+}
+p{
+  font-weight: bold;
+}
+footer {
+  padding: 5% 15% 7%;
+  text-align: center;
+  line-height: 3rem;
+}
+
+h2 {
+  font-weight: 800;
+  color: grey;
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.title {
+  background-color: #ff4c68;
+  color: white;
+}
+.container-fluid {
+  padding: 2% 15% 7%;
+}
+
+.navbar-brand {
+  position: relative;
+  font-family: "Ubuntu";
+  font-size: 3em;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-bottom: 2rem;
+  padding-top: 0;
+  margin-top: 1rem;
+}
+
+.nav-link {
+  font-family: "Ubuntu-light";
+  margin: 0 auto 2rem auto;
+  font-size: 1.2rem;
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+.title1 {
+  font-size: 3em;
+  line-height: 1.5;
+  color: white;
+  font-weight: 800;
+}
+
+
+.phone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.feature {
+  text-align: center;
+  padding: 7% 10% 7% 10%;
+}
+/*-feature----*/
+
+.features {
+  background-color: white;
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  font-size: xxx-large;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+
+.feature-p, .copi {
+  color: #8f8f8f;
+}
+/* testimonials */
+
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-inner {
+  padding: 5% 20%;
+}
+
+.press-logo {
+  width: 15%;
+}
+
+#press {
+  padding-bottom: 1.5rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 50px;
+}
+
+/* pricing */
+
+#pricing {
+  text-align: center;
+  margin: 100px;
+}
+
+
+.card {
+  margin: 3%;
+  text-align: center;
+}
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  position: relative;
+  padding: 5% 15% 7%;
+}
+
+
+.link {
+  padding: 0 10px 10px 10px;
+}
+/* media */
+
+@media only screen and (max-width: 992px) {
+
+
+  .title {
+    text-align: center;
+  }
+
+  .title1 {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1;
+  }
+
+  .phone-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .link {
+    padding: 2% 5%;
+  }
+  #pricing{
+    margin:  5% 5%;
+  }
+}
