@@ -22,9 +22,10 @@ h3 {
   font-size: 1.5rem;
 }
 
-.title {
+.title .container-fluid {
   background-color: #ff4c68;
   color: white;
+  padding: 1% 15% 7%;
 }
 .title1 {
   text-align: left;
@@ -99,7 +100,7 @@ h3 {
 /* testimonials */
 
 #testimonials {
-  background-color: #ff4c68;
+  background-color: #ef8172;
   position: relative;
 }
 
