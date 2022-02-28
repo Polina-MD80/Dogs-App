@@ -2,13 +2,13 @@
 /* title */
 body {
   font-family: "Montserrat-Bold";
+  text-align: center;
 }
 p{
   font-weight: bold;
 }
 footer {
   padding: 5% 15% 7%;
-  text-align: center;
   line-height: 3rem;
 }
 
@@ -73,7 +73,6 @@ h3 {
 }
 
 .feature {
-  text-align: center;
   padding: 7% 10% 7% 10%;
 }
 /*-feature----*/
@@ -102,7 +101,6 @@ h3 {
 
 #testimonials {
   background-color: #ff4c68;
-  text-align: center;
   position: relative;
 }
 
@@ -126,20 +124,17 @@ h3 {
 /* pricing */
 
 #pricing {
-  text-align: center;
   margin: 100px;
 }
 
 
 .card {
   margin: 3%;
-  text-align: center;
 }
 /* cta */
 
 #cta {
   background-color: #ff4c68;
-  text-align: center;
   position: relative;
   padding: 5% 15% 7%;
 }
@@ -153,9 +148,7 @@ h3 {
 @media only screen and (max-width: 992px) {
 
 
-  .title {
-    text-align: center;
-  }
+
 
   .title1 {
     font-size: 2rem;
