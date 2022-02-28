@@ -8,10 +8,7 @@ body {
 p{
   font-weight: bold;
 }
-footer {
-  padding: 5% 15% 7%;
 
-}
 
 h2 {
   font-weight: 800;
@@ -29,9 +26,15 @@ h3 {
   background-color: #ff4c68;
   color: white;
 }
+.title1 {
+  text-align: left;
+  font-size: 3em;
+  line-height: 1.5;
+  font-weight: 800;
+}
 
 .container-fluid {
-  padding: 2% 15% 7%;
+  padding: 7% 15% ;
 }
 
 .navbar-brand {
@@ -55,12 +58,7 @@ h3 {
   padding-bottom: 0;
 }
 
-.title1 {
-  text-align: left;
-  font-size: 3em;
-  line-height: 1.5;
-  font-weight: 800;
-}
+
 
 
 .phone-image {
@@ -74,10 +72,11 @@ h3 {
   margin: 5% 3% 5% 0;
 }
 
-.feature {
-  padding: 7% 10% 7% 10%;
-}
+
 /*-feature----*/
+.feature{
+  padding: 7% 7%;
+}
 
 .features {
   background-color: white;
@@ -94,8 +93,6 @@ h3 {
   color: #ff4c68;
 }
 
-
-
 .feature-p, .copi {
   color: #8f8f8f;
 }
@@ -106,9 +103,7 @@ h3 {
   position: relative;
 }
 
-.carousel-inner {
-  padding: 5% 20%;
-}
+
 
 .press-logo {
   width: 15%;
@@ -138,7 +133,6 @@ h3 {
 #cta {
   background-color: #ff4c68;
   position: relative;
-  padding: 5% 15% 7%;
 }
 
 
@@ -157,7 +151,7 @@ h3 {
     font-weight: normal;
     line-height: 1;
     text-align: center;
-    color: white;
+
   }
 
   .phone-image {
